@@ -14,25 +14,24 @@
         <span class="mr-2">Latest Release</span>
       </v-btn>
     </v-toolbar>
-
     <v-content>
-      <HelloWorld/>
+      <HelloWorld />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from '@/components/HelloWorld';
 
 export default {
   name: 'App',
   components: {
     HelloWorld
   },
-  data () {
+  data() {
     return {
       //
-    }
+    };
   }
-}
+};
 </script>
