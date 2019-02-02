@@ -88,6 +88,7 @@ export default {
         href: 'https://github.com/vuetifyjs/awesome-vuetify',
       },
     ],
+
     importantLinks: [
       {
         text: 'Documentation',
